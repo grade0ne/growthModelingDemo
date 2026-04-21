@@ -7,8 +7,7 @@ library(scales)
 library(withr)
 library(minpack.lm)
 
-# Logistic model in the same closed-form used by the custom model:
-# y(t) = (r * y0) / (alpha * y0 + (r - alpha * y0) * exp(-r * t))
+
 logistic_r_alpha <- function(t, y0, r, alpha) {
   (r * y0) / (alpha * y0 + (r - alpha * y0) * exp(-r * t))
 }
