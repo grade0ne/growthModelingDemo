@@ -1,4 +1,6 @@
-
+# Created by Alex Mendelson
+# for CSUN Biol551
+# 23 April, 2026
 
 #### I. Logistic Growth ----------------------------------------------- ####
 # Try changing the y0, alpha, and r parameters of logistic growth below.
@@ -126,9 +128,14 @@ plot(model2)
 
 duckweed_data <- read.csv("https://raw.githubusercontent.com/grade0ne/growthModelingDemo/main/duckweed.csv")
 
-model3 <- fit_growthmodel(
-  FUN = grow_logistic_alpha, # notice we specified our new equation here
-  p = c(y0 = 5, r = 0.5, alpha = .002), # mumax and K replaced by r and alpha
-  time = duckweed_classic_high_variance_100$day,
-  y = duckweed_classic_high_variance_100$count
-)
+
+
+
+
+
+
+
+
+
+
+
